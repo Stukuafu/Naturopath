@@ -21,9 +21,16 @@
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const isTouchDevice = window.matchMedia('(pointer: coarse)').matches || window.innerWidth <= 820;
   const showReveals = () => revealItems.forEach(item => item.classList.add('visible'));
+  const revealOnLoad = () => {
+    revealItems.forEach((item, index) => {
+      window.setTimeout(() => item.classList.add('visible'), 90 + index * 90);
+    });
+  };
 
-  if (prefersReducedMotion || isTouchDevice) {
+  if (prefersReducedMotion) {
     showReveals();
+  } else if (isTouchDevice) {
+    revealOnLoad();
   } else if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {

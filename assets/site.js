@@ -18,7 +18,13 @@
   window.addEventListener('scroll', setHeader, { passive: true });
 
   const revealItems = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window) {
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const isTouchDevice = window.matchMedia('(pointer: coarse)').matches || window.innerWidth <= 820;
+  const showReveals = () => revealItems.forEach(item => item.classList.add('visible'));
+
+  if (prefersReducedMotion || isTouchDevice) {
+    showReveals();
+  } else if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -29,7 +35,7 @@
     }, { threshold: 0.12 });
     revealItems.forEach(item => observer.observe(item));
   } else {
-    revealItems.forEach(item => item.classList.add('visible'));
+    showReveals();
   }
 
   document.querySelectorAll('[data-accordion]').forEach(group => {

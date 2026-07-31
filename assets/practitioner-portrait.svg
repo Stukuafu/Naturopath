@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Warm, friendly practitioner seated beside plants</title>
+  <desc id="desc">A warm-toned illustration of a friendly woman seated peacefully with leafy plants on either side.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5e9dc"/>
+      <stop offset="100%" stop-color="#e3ece2"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a6b4f"/>
+      <stop offset="100%" stop-color="#6f4f3c"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6f7d65"/>
+      <stop offset="100%" stop-color="#536553"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <ellipse cx="450" cy="1070" rx="280" ry="70" fill="#d7cabe" opacity="0.45"/>
+  <rect x="0" y="880" width="900" height="320" fill="#e8dfcf"/>
+
+  <g opacity="0.95">
+    <rect x="100" y="830" width="140" height="190" rx="28" fill="#c7a783"/>
+    <rect x="120" y="790" width="100" height="120" rx="22" fill="#7f9c74"/>
+    <path d="M116 748c24-61 52-98 95-111 18 33 35 56 55 74-40 10-70 46-97 111-13-5-33-26-53-74Z" fill="#4d694d"/>
+    <path d="M153 687c14-25 33-44 60-58 12 17 28 33 45 48-17 6-37 13-57 25-16 10-29 18-48-15Z" fill="#6d8f67"/>
+    <path d="M125 833c18-28 41-41 81-42-6 35-18 63-38 88-18 22-43 35-59 40-22-18-26-54-16-86Z" fill="#4f6e55"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="660" y="790" width="140" height="220" rx="28" fill="#c6a07b"/>
+    <rect x="680" y="740" width="100" height="120" rx="22" fill="#7d9871"/>
+    <path d="M726 676c17-50 48-76 88-88 18 34 30 60 31 96-30 14-54 38-79 80-19-17-34-44-40-88Z" fill="#4b694d"/>
+    <path d="M750 623c10-22 28-35 57-43 17 17 35 35 45 60-25 6-46 18-61 35-15 15-24 26-41-52Z" fill="#6f8f6a"/>
+    <path d="M676 800c12-28 31-44 70-44-8 41-17 68-35 92-23 32-47 37-74 40-10-18-13-57 3-88Z" fill="#4b6e54"/>
+  </g>
+
+  <rect x="250" y="760" width="400" height="180" rx="44" fill="url(#seat)"/>
+  <rect x="300" y="710" width="320" height="110" rx="36" fill="#b3865f"/>
+  <rect x="330" y="720" width="260" height="90" rx="28" fill="#dcb79a" opacity="0.85"/>
+  <ellipse cx="455" cy="835" rx="190" ry="28" fill="#b29175" opacity="0.45"/>
+
+  <g transform="translate(310 260)">
+    <ellipse cx="140" cy="110" rx="85" ry="98" fill="#d8a37c"/>
+    <path d="M85 95c0-69 42-105 112-105 56 0 97 37 97 99 0 27-7 58-20 85-21 43-62 73-98 73-50 0-91-37-91-99 0-15 6-23 0-53Z" fill="#3d2b23"/>
+    <path d="M95 130c17-44 41-62 81-62 41 0 66 17 83 50-26 23-53 35-83 35-28 0-56-10-81-23Z" fill="#d6a17a"/>
+    <path d="M135 116c18-16 50-16 74 0-11 14-30 24-37 24-14 0-29-7-37-24Z" fill="#f0c8aa" opacity="0.75"/>
+    <path d="M116 193c23 22 60 27 95 11 9 24 10 44 11 67-36 29-86 28-122 11-6-27-4-53 16-89Z" fill="#f7e4d3"/>
+    <path d="M152 174c14 20 22 46 28 75-24 13-54 12-86 0 2-24 11-48 28-69 10-14 20-20 30-6Z" fill="#b2785f"/>
+    <path d="M200 176c27 17 42 46 51 72-20 20-50 35-78 27 1-20-3-46-17-70 15-15 24-23 44-29Z" fill="#b2785f"/>
+    <path d="M120 208c24 15 40 37 51 63-41 22-81 15-123 0 14-22 30-43 72-63Z" fill="#f0c8aa" opacity="0.75"/>
+    <path d="M113 122c5-36 23-51 53-50 24 0 42 12 57 35-27 12-52 20-80 20-16 0-23-3-30-5Z" fill="#c98b66" opacity="0.9"/>
+    <path d="M111 220c14 24 41 36 78 34 16-1 32-8 44-20-26 15-54 24-84 21-21-2-34-10-38-35Z" fill="#f2d6c4"/>
+  </g>
+
+  <g transform="translate(280 470)">
+    <path d="M115 240c11-59 37-94 83-104 43-10 80 14 90 64 8 40-12 90-51 120-34 28-87 36-122 20-19-9-34-26-38-52-5-25 2-33 38-48Z" fill="url(#dress)"/>
+    <path d="M147 331c11-27 31-41 60-43 54-5 78 27 91 66-35 26-74 33-114 23-29-7-44-24-37-46Z" fill="#f2e4d4" opacity="0.95"/>
+    <path d="M116 283c32 4 66-12 83-46-20 9-38 12-57 10-27-3-46-12-63-28-11 14-16 38-12 64 8 0 24 9 49 0Z" fill="#4b5e4f" opacity="0.95"/>
+    <path d="M91 289c31 27 67 38 120 37 6 43 5 92 1 122-45 29-105 32-143 9-8-38-12-71-8-106 6-23 15-40 30-62Z" fill="#6f8f6a" opacity="0.95"/>
+    <path d="M176 250c48 14 62 46 62 88-23 14-47 20-76 19-24-1-37-7-45-17 13-28 20-64 59-90Z" fill="#516552" opacity="0.95"/>
+    <path d="M126 332c24 22 57 32 92 23-4 32-18 56-41 73-41 30-84 20-114-8 10-38 22-61 63-88Z" fill="#f1cfae" opacity="0.85"/>
+    <ellipse cx="158" cy="332" rx="54" ry="19" fill="#9fb091" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.75">
+    <path d="M110 800c45-18 88-15 128 0" stroke="#7b936d" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M110 815c31-8 68-6 110 8" stroke="#5c7755" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="180" cy="920" r="90" fill="#f6e6cd"/>
+    <circle cx="180" cy="920" r="54" fill="#d2e0c9"/>
+    <circle cx="180" cy="920" r="24" fill="#8ca57f"/>
+  </g>
+</svg>
